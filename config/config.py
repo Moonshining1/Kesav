@@ -74,7 +74,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1808943146").split())
+    map(int, getenv("OWNER_ID", "7297381612").split())
 )  # Input type must be interger
 
 
@@ -95,7 +95,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Moonshining1/Oxy",
+    "https://github.com/Moonshining1/Ozy",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
